@@ -29,6 +29,8 @@ Simply put, the head of a singly linked list 'contains' a node (technically, the
 
 More realistically, each node contains two addresses. One address links to data stored in memory, the other address links to another node (data that stores two more addresses)
 
+Note that the addresses for each node are not ordered unlike in arrays.
+
 ###### Doubly-Linked List
 
 This is basically the same as a singly-linked list, but with two references. One reference is linked to the next node, and the other is linked to the previous node.
